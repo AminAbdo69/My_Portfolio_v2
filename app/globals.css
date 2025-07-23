@@ -4,11 +4,13 @@
 :root {
   --black: #000;
   --black-100: #000319;
+  --purple: #cbacf9;
 }
 
 @theme inline {
   --color-black: var(--black);
   --color-black-100: var(--black-100);
+  --color-purple: var(--purple);
 }
 
 @media (prefers-color-scheme: dark) {
